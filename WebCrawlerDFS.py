@@ -6,7 +6,7 @@ from urllib.request import urlparse
   
 # Set for storing urls with same domain 
 links_intern = set() 
-input_url = "https://www.geeksforgeeks.org/machine-learning/"
+input_url = input('Enter the base URL : ')
 depth = 1
   
 # Set for storing urls with different domain 
